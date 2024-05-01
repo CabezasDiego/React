@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "categoria": "tazas",
+        "nombre": "TAZA PLÁSTICA TUY.",
+        "precio": 6500,
+        "stock": 5,
+        "descripcion": "Taza de polímero apta para microondas. Capacidad 330ml.",
+        "img": "https://acdn.mitiendanube.com/stores/597/251/products/photoroom-20230803_1317201-1d5f82df12a55303ee16916765870227-640-0.webp",
+        "ctas": 0
+    },
+    {
+        "id": 2,
+        "categoria": "tazas",
+        "nombre": "TAZA PLÁSTICA CAFAYATE.",
+        "precio": 6500,
+        "stock": 10,
+        "descripcion": "Taza de polímero apta para microondas. Capacidad 330ml.",
+        "img": "https://acdn.mitiendanube.com/stores/597/251/products/photoroom-20230803_1319261-182af538b8eea7464e16916807660674-640-0.webp",
+        "ctas": 3
+    },
+    {
+        "id": 3,
+        "categoria": "tazas",
+        "nombre": "TAZA PLÁSTICA CABRA CORRAL.",
+        "precio": 6500,
+        "stock": 10,
+        "descripcion": "Taza de polímero apta para microondas. Capacidad 330ml.",
+        "img": "https://acdn.mitiendanube.com/stores/597/251/products/photoroom-20230803_1226341-d2b3acadab67d1b98316916771428360-640-0.webp",
+        "ctas": 3
+    },
+    {
+        "id": 4,
+        "categoria": "tazas",
+        "nombre": "TAZA PLÁSTICA APUNADA",
+        "precio": 6500,
+        "stock": 5,
+        "descripcion": "Taza de polímero apta para microondas. Capacidad 330ml.",
+        "img": "https://acdn.mitiendanube.com/stores/597/251/products/photoroom-20230706_1541391-e767d874661ecf63a916886719080247-640-0.webp",
+        "ctas": 3
+    },
+    {
+        "id": 5,
+        "categoria": "vasos",
+        "nombre": "VASO TÉRMICO DOBLE PICO CERROS COLORES.",
+        "precio": 32000,
+        "stock": 3,
+        "descripcion": "Vaso termico de acero. Capacidad: 350ml. ",
+        "img": "https://acdn.mitiendanube.com/stores/597/251/products/7-67a2642a473ed9cd6517095829187668-640-0.webp",
+        "ctas": 24
+    },
+    {
+        "id": 6,
+        "categoria": "vasos",
+        "nombre": "VASO TÉRMICO DOBLE PICO CABRA.",
+        "precio": 32000,
+        "stock": 15,
+        "descripcion": "Vaso termico de acero. Capacidad: 350ml. ",
+        "img": "https://acdn.mitiendanube.com/stores/597/251/products/5-5a9593271e5c34030417095826016966-640-0.webp",
+        "ctas": 24
+    },
+    {
+        "id": 7,
+        "categoria": "vasos",
+        "nombre": "VASO TÉRMICO DOBLE PICO APUNADO.",
+        "precio": 32000,
+        "stock": 10,
+        "descripcion": "Vaso termico de acero. Capacidad: 350ml. ",
+        "img": "https://acdn.mitiendanube.com/stores/597/251/products/13-99a931687d5d2ae51117095824002505-640-0.webp",
+        "ctas": 24
+    },
+    {
+        "id": 8,
+        "categoria": "vasos",
+        "nombre": "VASO TÉRMICO DOBLE PICO TAFÍ.",
+        "precio": 32000,
+        "stock": 12,
+        "descripcion": "Vaso termico de acero. Capacidad: 350ml. ",
+        "img": "https://acdn.mitiendanube.com/stores/597/251/products/21-db2a5a5fea3101026717095821820447-640-0.webp",
+        "ctas": 24
+    },
+    {
+        "id": 9,
+        "categoria": "mates",
+        "nombre": "MATE CASCHY VIDRIO CHUY",
+        "precio": 8500,
+        "stock": 32,
+        "descripcion": "MATE CASCHY VIDRIO CHUY - con bombilla plateada ",
+        "img": "https://acdn.mitiendanube.com/stores/597/251/products/whatsapp-image-2022-07-09-at-8-02-42-pm1-639be6cddbda50be7216574085786082-640-0.webp",
+        "ctas": 6
+    },
+    {
+        "id": 10,
+        "categoria": "mates",
+        "nombre": "MATE CASCHY VIDRIO TUY",
+        "precio": 8500,
+        "stock": 50,
+        "descripcion": "MATE CASCHY VIDRIO TUY",
+        "img": "https://acdn.mitiendanube.com/stores/597/251/products/whatsapp-image-2022-07-09-at-8-05-38-pm1-4b4aa255dd44dbb6e116574083387523-640-0.webp",
+        "ctas": 6
+    },
+    {
+        "id": 11,
+        "categoria": "mates",
+        "nombre": "MATE CASCHY VIDRIO CACHI",
+        "precio": 8500,
+        "stock": 32,
+        "descripcion": "MATE CASCHY VIDRIO CACHI",
+        "img": "https://acdn.mitiendanube.com/stores/597/251/products/whatsapp-image-2022-07-09-at-9-15-22-pm-11-64437e7953b3fbfde416574125121042-640-0.webp",
+        "ctas": 6
+    },
+    {
+        "id": 12,
+        "categoria": "mates",
+        "nombre": "MATE CASCHY VIDRIO CERRO COLORES",
+        "precio": 8500,
+        "stock": 2,
+        "descripcion": "MATE CASCHY VIDRIO CERRO COLORES",
+        "img": "https://acdn.mitiendanube.com/stores/597/251/products/whatsapp-image-2022-08-09-at-4-39-43-pm1-f1f22f80a56dafda6116600762062185-640-0.webp",
+        "ctas": 6
+    },
+    {
+        "id": 13,
+        "categoria": "termos",
+        "nombre": "TERMO 1 LITRO CERRO COLORES",
+        "precio": 32400,
+        "stock": 25,
+        "descripcion": "Termo de acero inoxidable doble capa, tipo bala, un litro de capacidad (1000cc).",
+        "img": "https://acdn.mitiendanube.com/stores/597/251/products/5-e590e969e5866521c517124178542808-640-0.webp",
+        "ctas": 12
+    },
+    {
+        "id": 14,
+        "categoria": "termos",
+        "nombre": "TERMO 1 LITRO TREN A LAS NUBES",
+        "precio": 32400,
+        "stock": 5,
+        "descripcion": "Termo de acero inoxidable doble capa, tipo bala, un litro de capacidad (1000cc).",
+        "img": "https://acdn.mitiendanube.com/stores/597/251/products/3-5196e39d21c82e2cd317124178897965-640-0.webp",
+        "ctas": 12
+    },
+    {
+        "id": 15,
+        "categoria": "termos",
+        "nombre": "TERMO 1 LITRO TUY",
+        "precio": 32400,
+        "stock": 12,
+        "descripcion": "Termo de acero inoxidable doble capa, tipo bala, un litro de capacidad (1000cc).",
+        "img": "https://acdn.mitiendanube.com/stores/597/251/products/2-4390be0a0e58fa0a2217124179392907-640-0.webp",
+        "ctas": 12
+    },
+    {
+        "id": 16,
+        "categoria": "termos",
+        "nombre": "AUTOCEBANTE CABRA CORRAL",
+        "precio": 28300,
+        "stock": 10,
+        "descripcion": "AUTOCEBANTE 450ML. DOBLE CAPA DE ACERO INOXIDABLE CON PICO CEBADOR.\n",
+        "img": "https://acdn.mitiendanube.com/stores/597/251/products/autocabra1-9208aee79b75f5c48c15899903785804-640-0.webp",
+        "ctas": 12
+    }
+]
