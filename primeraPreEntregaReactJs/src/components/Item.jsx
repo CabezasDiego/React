@@ -8,7 +8,8 @@ const Item = ({ item }) => {
         <div className="card-body">
           <p className="card-title fs-5 fw-medium ">{item.nombre}</p>
           <p className="card-title fst-italic ">{item.descripcion}</p>
-          <p className="card-text fs-4 fw-bolder">$ {item.precio}</p>
+          <p className="fw-bolder fs-5">$ {item.precio}</p>
+          
         </div>
       </Link>
     </div>
