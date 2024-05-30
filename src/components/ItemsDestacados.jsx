@@ -2,6 +2,8 @@ import {collection,getDocs,getFirestore,limit,orderBy,query,} from "firebase/fir
 import ItemList from "./ItemList";
 import { useEffect, useState } from "react";
 
+
+//Busca los 4 productos con mayor stock para mostrarlos como promocionados.
 const ItemsDestacados = () => {
   const [items, setItems] = useState([]);
   const [visible, setVisible] = useState(false);

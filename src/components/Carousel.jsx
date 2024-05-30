@@ -62,9 +62,6 @@ const Carousel = ()=>{
 
                     </div>
                 </div>
-                
-
-                
                 <div className="container">
                     <div className="row my-5">
                     <ItemsDestacados/>

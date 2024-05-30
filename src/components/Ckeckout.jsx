@@ -13,21 +13,19 @@ const Checkout = () => {
   const modalRef = useRef(null);
 
 
+
   const generarOrden = () => {
+      const buyer = { nombre: nombre, email: email, telefono: telefono };
+      const items = cart.map((item) => ({ id: item.id, nombre: item.nombre, precio: item.precio}));
+      const date = new Date();
+      const currentDate = `${date.getDate()} - ${date.getMonth()+1}-${date.getFullYear()} ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
+      const orden = { fecha:currentDate, buyer: buyer, items: items, total: getSumPriceProducts() };
 
-    const buyer = { nombre: nombre, email: email, telefono: telefono };
-    const items = cart.map((item) => ({ id: item.id, nombre: item.nombre, precio: item.precio}));
-    const date = new Date();
-    const currentDate = `${date.getDate()} - ${date.getMonth()+1}-${date.getFullYear()} ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
-    const orden = { fecha:currentDate, buyer: buyer, items: items, total: getSumPriceProducts() };
-
-    const db = getFirestore();
-    const ordersCollection = collection(db, "orders");
-    addDoc(ordersCollection, orden).then((data) => {
-        setOrderId(data.id);
-    });
-
-    
+      const db = getFirestore();
+      const ordersCollection = collection(db, "orders");
+      addDoc(ordersCollection, orden).then((data) => {
+          setOrderId(data.id);
+      });
   };
  
 // Efecto para abrir el modal cuando orderId cambia
@@ -38,7 +36,7 @@ const Checkout = () => {
          }
      }, [orderId]);
 
-  // Método para cerrar el modal
+  // Limpia el carrito al cerrar el modal
     const closeModal = () => {
     clear();
     };
@@ -63,6 +61,7 @@ const Checkout = () => {
                   onInput={(e) => {
                     setNombre(e.target.value);
                   }}
+                  required
                 />
               </div>
               <div className="mb-3">
@@ -75,6 +74,7 @@ const Checkout = () => {
                   onInput={(e) => {
                     setEmail(e.target.value);
                   }}
+                  required
                 />
               </div>
               <div className="mb-3">
@@ -87,6 +87,7 @@ const Checkout = () => {
                   onInput={(e) => {
                     setTelefono(e.target.value);
                   }}
+                  required
                 />
               </div>
               <button

@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import ItemCount from "./ItemCount";
 import { CartContext } from "./context/CartContext";
-import ItemsDestacados from "./ItemsDestacados";
 
 
 const ItemDetail = ({ item  }) => {
@@ -44,9 +43,6 @@ const ItemDetail = ({ item  }) => {
             <ItemCount stock={item.stock} onAdd={onAdd} />
           </div>
         </div>
-      </div>
-      <div className="row my-5">
-            <ItemsDestacados/>
       </div>
     </div>
   );

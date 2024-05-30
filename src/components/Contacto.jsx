@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import llama from '../assets/img/llamas.png'; 
 
+
+//Se crea un formulario de contacto.
 const Contacto = () => {
   const [formData, setFormData] = useState({
     nombre: '',
@@ -29,7 +31,7 @@ const Contacto = () => {
     <div className="container mt-5">
       <div className="row mb-5 justify-content-around">
         <div className="col-md-5">
-          <img src={llama} alt="Imagen" className="img-fluid" />
+          <img src={llama} alt="Llamas" className="img-fluid" />
         </div>
         <div className="col-md-6 m-3">
           <h2 className='text-warning fw-bold fs-1'>Formulario de Contacto</h2>
@@ -39,7 +41,6 @@ const Contacto = () => {
               <input
                 type="text"
                 className="form-control"
-                id="nombre"
                 name="nombre"
                 value={formData.nombre}
                 onChange={handleChange}
@@ -51,7 +52,6 @@ const Contacto = () => {
               <input
                 type="tel"
                 className="form-control"
-                id="telefono"
                 name="telefono"
                 value={formData.telefono}
                 onChange={handleChange}
@@ -63,7 +63,6 @@ const Contacto = () => {
               <input
                 type="email"
                 className="form-control"
-                id="email"
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
@@ -73,7 +72,6 @@ const Contacto = () => {
               <label htmlFor="mensaje" className="form-label fw-medium">Mensaje (opcional)</label>
               <textarea
                 className="form-control"
-                id="mensaje"
                 name="mensaje"
                 value={formData.mensaje}
                 onChange={handleChange}
