@@ -1,0 +1,22 @@
+.card-wrapper {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  flex-grow: 1;
+}
+
+.card-img-top {
+  height: 320px; /* Altura fija para todas las imágenes */
+  object-fit: cover; /* Ajustar la imagen manteniendo la relación de aspecto */
+}
+
+.social-icons i{
+  font-size: 30px;
+  color: white;
+}

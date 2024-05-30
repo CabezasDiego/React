@@ -1,0 +1,111 @@
+@import url('//fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap');
+
+
+.loading-container {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  background-color: #FFF;
+  color: #00b8de;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+.cargando {
+  width: 200px;
+  height: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.texto-cargando {
+  padding-top: 20px;
+}
+
+.texto-cargando span {
+  font-size: 20px;
+  text-transform: uppercase;
+  animation: cambiar-color-texto 2s infinite;
+  animation-delay: 1s; /* Ajusta el retraso para coincidir con la secuencia */
+}
+
+.pelotas {
+  width: 30px;
+  height: 30px;
+  background-color: #00b8de;
+  animation: salto 0.6s alternate infinite, cambiar-color 2s infinite;
+  border-radius: 50%;
+}
+
+.pelotas:nth-child(2) {
+  animation-delay: 0.18s, 0.18s;
+}
+
+.pelotas:nth-child(3) {
+  animation-delay: 0.37s, 0.37s;
+}
+
+.pelotas:nth-child(4) {
+  animation-delay: 0.55s, 0.55s;
+}
+
+.pelotas:nth-child(5) {
+  animation-delay: 0.73s, 0.73s;
+}
+
+@keyframes salto {
+  from {
+    transform: scaleX(1.25);
+  }
+  to {
+    transform: translateY(-50px) scaleX(1);
+  }
+}
+
+  
+  @keyframes cambiar-color {
+    0% {
+      background-color: #ea000b;
+    }
+    20% {
+      background-color: #ea0784;
+    }
+    40% {
+      background-color: #f17b00;
+    }
+    60% {
+      background-color: #144292;
+    }
+    80% {
+      background-color: #049342;
+    }
+    100% {
+      background-color: #0a99dc;
+    }
+  }
+  
+  @keyframes cambiar-color-texto {
+    0% {
+      color: #ea000b;
+    }
+    20% {
+      color: #ea0784;
+    }
+    40% {
+      color: #f17b00;
+    }
+    60% {
+      color: #144292;
+    }
+    80% {
+      color: #049342;
+    }
+    100% {
+      color: #009fe2;
+    }
+  }
+  
