@@ -5,10 +5,7 @@ import llama from '../assets/img/llamas.png';
 //Se crea un formulario de contacto.
 const Contacto = () => {
   const [formData, setFormData] = useState({
-    nombre: '',
-    telefono: '',
-    email: '',
-    mensaje: '',
+    nombre: '', telefono: '', email: '', mensaje: '',
   });
 
   const handleChange = (e) => {
@@ -38,44 +35,26 @@ const Contacto = () => {
           <form onSubmit={handleSubmit} className='my-5'>
             <div className="mb-3">
               <label htmlFor="nombre" className="form-label fw-medium">Nombre *</label>
-              <input
-                type="text"
-                className="form-control"
-                name="nombre"
-                value={formData.nombre}
-                onChange={handleChange}
-                required
+              <input type="text" className="form-control" name="nombre" value={formData.nombre}
+                onChange={handleChange} required
               />
             </div>
             <div className="mb-3">
               <label htmlFor="telefono" className="form-label fw-medium">Teléfono *</label>
-              <input
-                type="tel"
-                className="form-control"
-                name="telefono"
-                value={formData.telefono}
-                onChange={handleChange}
-                required
+              <input type="tel" className="form-control" name="telefono" value={formData.telefono}
+                onChange={handleChange} required
               />
             </div>
             <div className="mb-3">
               <label htmlFor="email" className="form-label fw-medium">Email (opcional)</label>
-              <input
-                type="email"
-                className="form-control"
-                name="email"
-                value={formData.email}
+              <input type="email" className="form-control" name="email" value={formData.email}
                 onChange={handleChange}
-              />
+               />
             </div>
             <div className="mb-3">
               <label htmlFor="mensaje" className="form-label fw-medium">Mensaje (opcional)</label>
-              <textarea
-                className="form-control"
-                name="mensaje"
-                value={formData.mensaje}
-                onChange={handleChange}
-                rows="3"
+              <textarea className="form-control" name="mensaje" value={formData.mensaje}
+                onChange={handleChange} rows="4"
               ></textarea>
             </div>
             <button type="submit" className="btn btn-success btn-lg fw-medium">Enviar</button>

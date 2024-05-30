@@ -40,15 +40,12 @@ const Cart = () => {
                             <td className="text-end text-success fs-5"><b>${getSumPriceProducts()}</b></td>
                             {/* <td>&nbsp;</td> */}
                             <td className="text-center"><Link to={"/checkout"} className="btn text-white fw-bold bg-success rounded-0">Ckeckout</Link></td>
-
                         </tr>
                     </tbody>
-
                 </table>
                 </div>
             </div>
-        </div>
-        
+        </div> 
     )
 )}
 

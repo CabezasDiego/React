@@ -21,7 +21,7 @@ useEffect (() => {
       setVisible(false);
     }
   })
-})
+},[id])
 
   return (
     <div className="container my-5">

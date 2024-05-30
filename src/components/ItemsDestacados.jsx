@@ -25,7 +25,7 @@ const ItemsDestacados = () => {
         setVisible(true);
       }
     });
-  });
+  },[]);
 
   return (
     <>

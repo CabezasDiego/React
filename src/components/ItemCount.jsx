@@ -49,15 +49,13 @@ const ItemCount = ({stock, onAdd}) => {
                 {visible ? (
                     <>
                         <button type="button" className="btn btn-warning fw-bold" 
-                        onClick={agregarCarrito} disabled={itemStock === 0}
-                        >Agregar al carrito</button>
+                        onClick={agregarCarrito} disabled={itemStock === 0}>Agregar al carrito
+                        </button>
                         
                         {itemStock === 0 && <p className="text-danger fw-bold">No hay stock</p>}
                     </>
                     ) : (
-                    <Link to="/cart" className="btn btn-success text-white fw-bold btn-lg">
-                        Ver Carrito
-                    </Link>
+                    <Link to="/cart" className="btn btn-success text-white fw-bold btn-lg">Ver Carrito</Link>
                     )}
                 </div>
             </div>

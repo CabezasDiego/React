@@ -14,7 +14,6 @@ const CarritoVacio = () => {
                         <div className="col text-center">
                             <img src={carrito} width={350} />
                         </div>
-
                         <Link to={"/"} className="btn text-white bg-primary rounded-0 btn-lg my-5 fs-3"> Volver a la página principal</Link>
                     </div>
                 </div>

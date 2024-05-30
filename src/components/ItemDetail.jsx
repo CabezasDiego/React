@@ -27,18 +27,12 @@ const ItemDetail = ({ item  }) => {
             <h1 className="fs-3 text-primary">{item.nombre}</h1>
             
             <p>{item.descripcion}</p>
-            <p className="fs-2">
-              <b>$ {item.precio}</b>
-            </p>
+            <p className="fs-2"><b>$ {item.precio}</b></p>
             {item.ctas > 0 && valorCuota !== null && (
-              <p>
-                <b>{item.ctas}</b> CUOTAS DE <b>${valorCuota.toFixed(2)}</b>
-              </p>
+              <p><b>{item.ctas}</b> CUOTAS DE <b>${valorCuota.toFixed(2)}</b></p>
             )}
             {item.ctas <= 0 && (
-              <p className="fw-lighter">
-                No hay opciones de financiamiento disponibles.
-              </p>
+              <p className="fw-lighter">No hay opciones de financiamiento disponibles.</p>
             )}
             <ItemCount stock={item.stock} onAdd={onAdd} />
           </div>
